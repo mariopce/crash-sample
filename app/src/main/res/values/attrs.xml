@@ -1,0 +1,16 @@
+<resources>
+
+    <declare-styleable name="LoadingView">
+        <attr name="android:textColor" />
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="LabelSpinnerView">
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="TabShadow">
+        <attr name="selectColor" format="color" />
+    </declare-styleable>
+
+</resources>

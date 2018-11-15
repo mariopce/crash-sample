@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TomTomCrashApp</string>
+
+    <!-- Tabs -->
+    <string name="tab_destination_download">Destination Download</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_help">Help</string>
+    <string name="lock_message">The mobile application is not accessible when your phone is connected to your vehicle.\n\nYou can access services through the Multimedia System.</string>
+
+</resources>

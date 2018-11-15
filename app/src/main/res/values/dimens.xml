@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_shadow">3dp</dimen>
+    <dimen name="progress_size">54dp</dimen>
+    <dimen name="padding_screen">16dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_item">8dp</dimen>
+
+    <dimen name="micro_text">12sp</dimen>
+    <dimen name="regular_text">14sp</dimen>
+    <dimen name="subhead_text">16sp</dimen>
+    <dimen name="medium_text">18sp</dimen>
+    <dimen name="title_text">20sp</dimen>
+    <dimen name="heading_text">24sp</dimen>
+    <dimen name="large_text">28sp</dimen>
+    <dimen name="huge_text">36sp</dimen>
+    <dimen name="height_single_edit">56dp</dimen>
+    <!-- Radius -->
+    <dimen name="radius_button">8dp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tabs"
+        android:layout_below="@id/toolbar" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        style="@style/Tab"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true" />
+
+    <com.test.ui.TabShadow
+        android:id="@+id/tabs_shadow"
+        style="@style/TabShadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_shadow"
+        android:layout_above="@id/tabs"
+        android:background="@drawable/shadow_bottom" />
+
+    <View
+        style="@style/ToolbarShadow"
+        android:layout_below="@id/toolbar" />
+
+    <!-- Add elevation on the loading view because we want it to cover the toolbar, which has elevation on Lollipop for the shadow -->
+    <com.test.ui.LoadingView
+        android:id="@+id/view_loading"
+        style="@style/Loading"
+        android:elevation="@dimen/height_shadow"
+        tools:ignore="UnusedAttribute" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+.gradle
+.idea
+local.properties
+build
+gradle.properties
+passwords.properties
+*.iml
+app/src/debug/libs/assets/
+app/src/debug/libs/libs/
+gen/
+projectFilesBackup/

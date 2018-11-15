@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Please check associated product flavour -->
+    <item android:drawable="@drawable/ic_destination_download_sel" android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_destination_download_unsel"/>
+</selector>

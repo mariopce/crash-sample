@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ef2e3b</color>
+    <color name="primary_dark">#D32F2F</color>
+    <color name="accent">#336ce6</color>
+
+    <!-- Common -->
+    <color name="grey">#434343</color>
+    <color name="grey_light">#777778</color>
+    <color name="grey_cool">#bdbdbe</color>
+    <color name="grey_dark">#1f1f1f</color>
+    <color name="grey_warm">#808080</color>
+    <color name="black_light">#8a000000</color>
+    <color name="transparent">#80ffffff</color>
+
+
+    <!-- Button -->
+    <color name="button_normal_start">@color/primary</color>
+    <color name="button_normal_center">#eb1c24</color>
+    <color name="button_normal_end">#bc151b</color>
+    <color name="button_pressed">@color/primary_dark</color>
+    <color name="button_disabled">#4def2e3b</color>
+    <color name="text_button">@android:color/white</color>
+    <!-- Toolbar -->
+    <color name="toolbar_background">@color/primary</color>
+
+    <!-- Progress bar -->
+    <color name="progress_start_color">#1990ed</color>
+    <color name="progress_end_color">#331990ed</color>
+
+    <!-- Help -->
+    <color name="help_title">#6d6d72</color>
+
+    <!-- Landing -->
+    <color name="landing_edit_text">#de000000</color>
+    <color name="landing_edit_text_hint">@color/grey_warm</color>
+    <color name="landing_edit_text_line">@color/black_light</color>
+
+    <!-- Destination -->
+    <color name="destination_title">@color/primary</color>
+
+    <!-- Overlay -->
+    <color name="bg_overlay">#CCffffff</color>
+</resources>
