@@ -29,9 +29,7 @@ public class LandingActivity extends BaseActivity {
     }
 
     private static void start(Context context, Intent intent) {
-        intent.addFlags(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT);
         context.startActivity(intent);
-
     }
 
     @Override
