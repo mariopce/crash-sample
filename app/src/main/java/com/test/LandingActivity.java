@@ -29,7 +29,7 @@ public class LandingActivity extends BaseActivity {
     }
 
     private static void start(Context context, Intent intent) {
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT);
         context.startActivity(intent);
 
     }

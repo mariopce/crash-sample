@@ -27,11 +27,7 @@ public class DestinationDownloadFragment extends BaseFragment<DestinationDownloa
         implements IDestinationDownloadOperation, OnMapReadyCallback {
 
     private TomtomMap mTomTomMap;
-    private static final int PERMISSIONS_REQUEST_LOCATION = 1002;
-    private static final String[] REQUIRED_PERMISSIONS = new String[]{
-            Manifest.permission.ACCESS_FINE_LOCATION,
-            Manifest.permission.ACCESS_COARSE_LOCATION
-    };
+
 
     @Override
     protected DestinationDownloadPresenter initPresenter() {
@@ -44,23 +40,14 @@ public class DestinationDownloadFragment extends BaseFragment<DestinationDownloa
         setHasOptionsMenu(true);
     }
 
-    private boolean arePermissionsGranted() {
-        for (String permission : REQUIRED_PERMISSIONS) {
-            if (ActivityCompat.checkSelfPermission(getActivity(), permission) != PackageManager.PERMISSION_GRANTED) {
-                return false;
-            }
-        }
-        return true;
-    }
+
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_destination_download, container, false);
         setUnbinder(ButterKnife.bind(this, view));
-        if (!arePermissionsGranted()) {
-            requestPermissions(REQUIRED_PERMISSIONS, PERMISSIONS_REQUEST_LOCATION);
-        }
+
 
         MapFragment mapFragment = (MapFragment) getChildFragmentManager()
                 .findFragmentById(R.id.mapFragment);

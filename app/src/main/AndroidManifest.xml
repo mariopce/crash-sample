@@ -35,10 +35,14 @@
             android:name="OnlineMaps.Key"
             android:value="mDbrsQIwW4herYVaezzQEBA2GVkhGBXG" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask"
+            >
 
         </activity>
-        <activity android:name=".LandingActivity">
+        <activity android:name=".LandingActivity"
+            android:noHistory="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
