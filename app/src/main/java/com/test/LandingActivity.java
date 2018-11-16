@@ -100,7 +100,7 @@ public class LandingActivity extends BaseActivity {
 
                 @Override
                 public void onMSDisconnected() {
-                    LandingActivity.startLastActivity(context);
+//                    LandingActivity.startLastActivity(context);
                 }
 
                 @Override
